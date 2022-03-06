@@ -1,0 +1,9 @@
+C:\Users\Terry\Documents\Swinburne\Semester Two\OOP\Code\Swin Adventure GUI\SwinAdventure GUI\bin\Debug\SwinAdventure GUI.exe.config
+C:\Users\Terry\Documents\Swinburne\Semester Two\OOP\Code\Swin Adventure GUI\SwinAdventure GUI\bin\Debug\SwinAdventure GUI.exe
+C:\Users\Terry\Documents\Swinburne\Semester Two\OOP\Code\Swin Adventure GUI\SwinAdventure GUI\bin\Debug\SwinAdventure GUI.pdb
+C:\Users\Terry\Documents\Swinburne\Semester Two\OOP\Code\Swin Adventure GUI\SwinAdventure GUI\obj\Debug\SwinAdventure GUI.csprojAssemblyReference.cache
+C:\Users\Terry\Documents\Swinburne\Semester Two\OOP\Code\Swin Adventure GUI\SwinAdventure GUI\obj\Debug\SwinAdventure GUI.csproj.CoreCompileInputs.cache
+C:\Users\Terry\Documents\Swinburne\Semester Two\OOP\Code\Swin Adventure GUI\SwinAdventure GUI\obj\Debug\SwinAdventure GUI.exe
+C:\Users\Terry\Documents\Swinburne\Semester Two\OOP\Code\Swin Adventure GUI\SwinAdventure GUI\obj\Debug\SwinAdventure GUI.pdb
+C:\Users\Terry\Documents\Swinburne\Semester Two\OOP\Code\Swin Adventure GUI\SwinAdventure GUI\obj\Debug\SwinAdventure GUI.csproj.GenerateResource.cache
+C:\Users\Terry\Documents\Swinburne\Semester Two\OOP\Code\Swin Adventure GUI\SwinAdventure GUI\obj\Debug\WindowsFormsApp1.Form1.resources

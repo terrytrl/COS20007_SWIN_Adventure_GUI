@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B0F74D07-420E-4489-B9E4-7A620AD669A8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SwinAdventure_GUI</RootNamespace>
+    <AssemblyName>SwinAdventure GUI</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>WindowsFormsApp1.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="WinForms APP\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForms APP\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForms APP\Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SwinAdventure\Bag.cs" />
+    <Compile Include="SwinAdventure\Command.cs" />
+    <Compile Include="SwinAdventure\CommandProcessor.cs" />
+    <Compile Include="SwinAdventure\GameObject.cs" />
+    <Compile Include="SwinAdventure\IdentifiableObject.cs" />
+    <Compile Include="SwinAdventure\IHaveInventory.cs" />
+    <Compile Include="SwinAdventure\Inventory.cs" />
+    <Compile Include="SwinAdventure\Item.cs" />
+    <Compile Include="SwinAdventure\Locations.cs" />
+    <Compile Include="SwinAdventure\LookCommand.cs" />
+    <Compile Include="SwinAdventure\MoveCommand.cs" />
+    <Compile Include="SwinAdventure\Notes.cs" />
+    <Compile Include="SwinAdventure\Path.cs" />
+    <Compile Include="SwinAdventure\Player.cs" />
+    <Compile Include="SwinAdventure\PlayerCommand.cs" />
+    <Compile Include="SwinAdventure\Program2.cs" />
+    <Compile Include="SwinAdventure\PutCommand.cs" />
+    <Compile Include="SwinAdventure\TakeCommand.cs" />
+    <Compile Include="Unit Testing\BagTests.cs" />
+    <Compile Include="Unit Testing\IdentifiableObjectTests.cs" />
+    <Compile Include="Unit Testing\InventoryTests.cs" />
+    <Compile Include="Unit Testing\ItemTests.cs" />
+    <Compile Include="Unit Testing\LocationsTests.cs" />
+    <Compile Include="Unit Testing\LookCommandTests.cs" />
+    <Compile Include="Unit Testing\PathTest.cs" />
+    <Compile Include="Unit Testing\PlayerTests.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="SwinAdventure\SwinAdventure.csproj" />
+    <None Include="Unit Testing\SwinAdventureTests.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="WinForms APP\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Test\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
